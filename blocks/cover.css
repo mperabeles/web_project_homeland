@@ -1,0 +1,42 @@
+.cover {
+  max-width: 1280px;
+  margin: 0 auto 92px;
+  padding-top: 34px;
+  text-align: center;
+}
+
+.cover__image {
+  display: block;
+  margin: 0 auto;
+  width: 984px;
+  height: 615px;
+  object-fit: cover;
+}
+
+/* Tablet (<= 768px) */
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-top: 0px;
+  }
+
+  .cover__image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile (<= 320px) */
+@media screen and (max-width: 320px) {
+  .cover {
+    padding-top: 0px;
+  }
+
+  .cover__image {
+    width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,17 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/cover.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/quote.css");
+@import url("../blocks/footer.css");
+
+.page {
+  margin: 0;
+  background-color: #2a2c2f;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  overflow-x: hidden;
+}
