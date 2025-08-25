@@ -6,15 +6,26 @@
 }
 
 .header__title {
-  font-size: 72px;
+  font-size: 92px;
   font-weight: 900;
   margin: 50px auto 20px;
+  max-width: 720px;
+  line-height: 100px;
 }
 
 .header__subtitle {
   font-size: 30px;
   margin: 32px auto 0;
   max-width: 720px;
+}
+
+/* Tablet (<= 768px) */
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 75px;
+    max-width: 530px;
+    line-height: 79px;
+  }
 }
 
 /* Mobile (<= 320px) */
